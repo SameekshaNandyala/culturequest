@@ -1,0 +1,78 @@
+header{
+display:flex;
+height:675px;
+width:100%;
+}
+.btn {border-radius: 10%;}
+.btn {
+  width: 150px;
+  height: 100px;
+  border: 1px solid blue;
+}
+
+.btn{
+  background-color: #ff3399; 
+  border: none;
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+
+
+.container {
+background-image:url('main.jpg');
+background-size:cover;
+  width: 70%;
+}
+
+/* Make the image responsive */
+.container img {
+width: 50%;
+  height:300%;
+
+  
+}
+.text{
+display:flex;
+justify-content:center;
+align-items:center;
+width:30%
+
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: bottom-right;
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ff33cc;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+
+position:relative;
+left:170%;
+right:20%;
+bottom:50%;
+top:60%;
+}
+
+.container .btn:hover {
+  background-color: black;
+
+
+}
+}
+
+
+
